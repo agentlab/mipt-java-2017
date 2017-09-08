@@ -21,13 +21,15 @@
   * https://www.youtube.com/watch?v=Kp5CGyLct20
   * https://docs.oracle.com/javase/tutorial/essential/io/cl.html
   * https://alvinalexander.com/java/edu/pj/pj010005
-* Консольные программы с файловым вводом-выводом. Обработка исключительных ситуаций. Мышление в разрешенных и запрещенных состояниях и ограничениях
+* Обработка исключительных ситуаций. Мышление в разрешенных и запрещенных состояниях и ограничениях
+  * [Oracle Lesson: Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html)
+* Консольные программы с файловым вводом-выводом.
   * [Java vs C++; Работа с исключениям и I/O](https://goo.gl/wps6dA) [примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar1)
-  * [Lesson: Basic I/O](https://docs.oracle.com/javase/tutorial/essential/io/)
+  * [Oracle Lesson: Basic I/O](https://docs.oracle.com/javase/tutorial/essential/io/)
 
 ## Вредное задание на семинар
 
-Написать консольное приложение-шифровальщик (используя только текстовый редактор и консоль). Отладить и выпустить в виде распространяемой jar сборки.
+Написать консольное приложение-шифровальщик (используя только текстовый редактор и консоль, без IDE). Отладить и выпустить в виде распространяемой jar сборки.
 
 * Нефункциональные требования к приложению
   * Консольное приложение в виде jar-сборки
