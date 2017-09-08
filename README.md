@@ -11,6 +11,9 @@
 * Зарелизить jar сборку через консоль
   * https://www.youtube.com/watch?v=WTfjbOIfi10
 
+И вообще, любите консоль!
+  * [JDK Tools and Utilities](http://docs.oracle.com/javase/8/docs/technotes/tools/)
+
 ## Типы приложений
 
 * Утилиты командной строки с аргументами командной строки. Разбор аргументов разного уровня сложности.
@@ -26,9 +29,6 @@
 * Консольные программы с файловым вводом-выводом.
   * [Java vs C++; Работа с исключениям и I/O](https://goo.gl/wps6dA) [примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar1)
   * [Oracle Lesson: Basic I/O](https://docs.oracle.com/javase/tutorial/essential/io/)
-
-И вообще, любите консоль!
-  * [JDK Tools and Utilities](http://docs.oracle.com/javase/8/docs/technotes/tools/)
 
 ## Вредное задание на семинар
 
