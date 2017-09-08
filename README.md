@@ -15,11 +15,11 @@
 
 * Утилиты командной строки с аргументами командной строки. Разбор аргументов разного уровня сложности.
   * https://www.youtube.com/watch?v=-CbBayOZrEw
-  * https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html
+  * [Oracle: Command-Line Arguments](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html)
   * [Для крутых] https://commons.apache.org/proper/commons-cli/usage.html
 * Интерактивные консольных программы с консольным вводом-выводом. Декораторы потоков
   * https://www.youtube.com/watch?v=Kp5CGyLct20
-  * https://docs.oracle.com/javase/tutorial/essential/io/cl.html
+  * [Oracle I/O from the Command Line](https://docs.oracle.com/javase/tutorial/essential/io/cl.html)
   * https://alvinalexander.com/java/edu/pj/pj010005
 * Обработка исключительных ситуаций. Мышление в разрешенных и запрещенных состояниях и ограничениях
   * [Oracle Lesson: Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html)
