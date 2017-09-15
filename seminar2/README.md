@@ -15,14 +15,25 @@
 ## [Maven](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 * [Установка Maven](https://maven.apache.org/install.html)
 * Создание maven-проекта [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
-  * в IDE
-  * из командной строки через archetype:generate
+  * [Создание maven-проекта в IntelliJ Idea](https://www.jetbrains.com/help/idea/maven.html)
+  * [Из командной строки через archetype:generate](http://maven.apache.org/archetypes/maven-archetype-quickstart/)
 * Управление зависимостями
-  * репозитории артефактов
-  * groupId и artifactId, их связь с maven central
+  * [репозитории артефактов](https://maven.apache.org/guides/introduction/introduction-to-repositories.html)
+  * Идентификаторы артефакта: groupId, artifactId, version. Их связь с maven central, поисковик [mvnrepository](https://mvnrepository.com)
 * [Жизненный цикл сборки артефакта](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
-  * Фазы ЖЦ compile, clean, test и package
+  * Фазы ЖЦ сборки: compile, clean, test и package
 * Сторонние плагины
-  * фазы из сторонних плагинов. Добавление манифеста с помощью плагина maven-jar-plugin: configuration->archive->manifest->mainClass
-* Модульное тестирования
-  * секция test, что-нибудь в неё добавть. Показать, как ломается assertTrue(false)
+  * Добавление манифеста с помощью плагина [maven-jar-plugin](https://maven.apache.org/plugins/maven-jar-plugin/): configuration->archive->manifest->mainClass См. [пример](https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
+  * Цели из сторонних плагинов
+* Биндинг целей плагинов к фазам ЖЦ сборки
+  * Задание packaging -- Типовые "упаповки" как биндинги целей к фазам
+  * Настройка фазы в плагине
+* Модульное тестирование
+  * [Unit Testing w/ JUnit Using Maven and IntelliJ - Pt.1](https://dzone.com/articles/unit-testing-w-junit-using-maven-and-intellij-pt1)
+  * Секция test, что-нибудь в неё добавть. Показать, как ломается assertTrue(false)
+
+## Источники
+* [Туториал и справочник по Maven](https://www.tutorialspoint.com/maven/index.htm)
+* [Шпаргалки по Maven] (http://www.cheat-sheets.org/#Maven)
+* [Apache Maven Documentation](http://maven.apache.org/guides/)
+* [Книги по Maven](https://www.amazon.com/s/ref=sr_ex_n_1?rh=n%3A283155%2Cn%3A5%2Ck%3Amaven&bbn=5&keywords=maven&ie=UTF8&qid=1491648054)
